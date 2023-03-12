@@ -1,3 +1,3 @@
 # cssBayan
 
-https://EvgeniyyBy.github.io/cssBayan/cssBayan/index.html
+https://EvgeniyyBy.github.io/cssBayan/index.html
