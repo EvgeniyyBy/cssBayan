@@ -157,7 +157,7 @@ main {
   border-bottom: 2px solid #c6c6c6;
 }
 
-.item-input:checked ~.cursor img {
+.item-input:checked~.cursor img {
   transform: rotate(45deg);
   transition: 0.5s;
 }
@@ -183,4 +183,32 @@ main {
   padding: 20px;
   border-top: none;
   display: none;
+}
+
+/* TABLET */
+
+@media (max-width: 820px) {
+  .item-trigger {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 520px) {
+ 
+  .cursor {
+    display: none;
+  }
+}
+
+/*  MOBAILE  */
+
+@media (max-width: 320px) {
+  .item-trigger {
+    font-size: 12px;
+  }
+
+  .cursor {
+    display: none;
+  }
+
 }
